@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+
+    <style>
+        @font-face {
+            font-family: 'Blah';
+            src: url('fonts/Blah!.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-att (Apple Advanced Typography)
+                - svg
+            */
+        }
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1{
+            font-family: 'Blah', cursive;
+            font-size: 3em;
+        }
+        h2{
+            font-family: 'blah', cursive;
+            font-size: 2em;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Pagina 02</h1>
+    <h2>Titulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum deleniti nihil dolore voluptatem incidunt, voluptatum harum itaque accusantium excepturi quis ipsam dolorem magnam quod dicta possimus perferendis blanditiis praesentium pariatur.</p>
+
+
+    <p style = "text-align: center;"><a href="fonte01.html" target="_self" rel="prev">Pagina 01</a></p>
+
+    <p style = "text-align: right;"><a href="../ex016/cor03.html" target="_blank" rel="prev">Site de Exemplo</a></p>
+
+    
+</body>
+</html>

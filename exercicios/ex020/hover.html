@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div{
+            width: 100px;
+        }
+        div > .hidden{
+            display: none;
+        }
+        div:hover > .hidden{
+            display: block;
+            color: blue;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse no texto abaixo</p>
+    <div>
+        Aqui ó
+        <p class="hidden"> Saudade dela</p>
+        <a href="links.html">
+            <p>eita bixo</p>
+        </a>
+    </div>
+</body>
+</html>
